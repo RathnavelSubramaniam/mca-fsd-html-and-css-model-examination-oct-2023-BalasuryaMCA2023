@@ -1,0 +1,129 @@
+
+body{
+    border: 4px solid black;
+    width: 80em;
+    height: 75em;
+    margin-bottom: 30em;
+    
+}
+/* navigation */
+
+.navigation {
+    overflow: hidden;
+    background-color: #161515;
+   
+    
+  }
+  
+  .navigation a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  
+  }
+  button{
+    background-color: aqua;
+  }
+  button a:hover{
+    color: red;
+  }
+  
+  
+  .services {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .services .Drop-down {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+  }
+  
+  .navigation a:hover, .services:hover .Drop-down {
+    background-color: rgb(0, 208, 255);
+    
+  }
+  
+  .services-content {
+    display: none;
+    background-color: hsl(312, 14%, 93%);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .services-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .services-content a:hover {
+    background-color: #ffaa00;
+    color: hsl(242, 97%, 48%);
+    padding: 5%;
+  }
+  
+  
+  .services:hover .services-content {
+    display: block;
+  }
+#top{
+border: 2px solid black;
+width: 80em;
+height: 10em;
+
+color: aliceblue;
+font-family: 'Times New Roman', Times, serif;
+background-image: linear-gradient(rgb(249, 3, 3), rgb(200, 0, 255));
+
+}
+#left{
+    border: 2px solid black;
+    width: 50em;
+    height: 55em;
+    padding: 10px;
+    float: left;
+}
+#right{
+  display: table; 
+  clear: both;
+  float: right;
+  
+ 
+}
+#last{
+  width: 20em;
+  height: 10em;
+  text-align: center;
+
+}
+#H1{
+color: red;
+}
+#end{
+    margin-top: 10em;
+    padding-bottom: 30px;
+  
+}
+
+
+
+  
+
+ 
+  
+  
+  
+
+
